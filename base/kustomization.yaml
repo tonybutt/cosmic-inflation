@@ -3,5 +3,5 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 resources:
-    - git::https://github.com/DoD-Platform-One/big-bang.git/base?ref=1.37.0
+#    - git::https://github.com/DoD-Platform-One/big-bang.git/base?ref=1.37.0
     - cosmic-inflation-gitrepo.yaml

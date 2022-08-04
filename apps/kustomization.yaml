@@ -1,6 +1,4 @@
 ---
-namespace: bigbang
-
 resources:
   - cert-manager/helm-repository.yaml
   - cert-manager/helm-release.yaml

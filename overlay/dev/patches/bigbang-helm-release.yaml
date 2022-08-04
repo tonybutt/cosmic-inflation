@@ -5,7 +5,7 @@ metadata:
   name: bigbang
 spec:
   dependsOn:
-    - name: cert-manager
+    - name: bigbang-cert-manager
   valuesFrom:
     - kind: ConfigMap
       name: istio

@@ -8,7 +8,7 @@ spec:
   interval: 10m
   chart:
     spec:
-      chart: chart
+      chart: ./deploy/charts/cert-manager
       sourceRef:
         kind: GitRepository
         name: cert-manager

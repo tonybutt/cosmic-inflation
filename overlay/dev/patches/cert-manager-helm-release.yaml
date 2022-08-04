@@ -5,5 +5,5 @@ metadata:
   name: cert-manager
 spec:
   values:
-    installCRDS: true
+    installCRDs: true
     

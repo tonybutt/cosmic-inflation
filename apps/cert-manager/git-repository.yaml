@@ -9,6 +9,6 @@ spec:
     /**/*.txt
     /**/*.sh
   interval: 10m
-  url: https://github.com/cert-manager/cert-manager.git
+  url: https://github.com/cert-manager/cert-manager.git//deploy/charts/cert-manager
   ref:
     tag: v1.9.1

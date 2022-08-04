@@ -6,7 +6,7 @@ metadata:
 spec:
   dependsOn:
     - name: cert-manager
-      namespace: cert-manager
+      namespace: flux-system
   valuesFrom:
     - kind: ConfigMap
       name: istio

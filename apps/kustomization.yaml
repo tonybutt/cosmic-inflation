@@ -2,5 +2,5 @@
 namespace: bigbang
 
 resources:
-  - cert-manager/git-repository.yaml
+  - cert-manager/helm-repository.yaml
   - cert-manager/helm-release.yaml
